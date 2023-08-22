@@ -1,0 +1,23 @@
+.recipe{
+    background-color: rgb(188, 186, 186);
+    padding: 10px;
+    margin:-5px;
+    margin-left: -9px;
+    margin-top: -40px;
+}
+h3{
+    font-size: xx-large;
+    margin-left: 20px;
+}
+.info{
+    display: inline-block;
+    margin-left: 40px;
+}
+table{
+    font-size: larger;
+}
+td{
+    margin: 10px;
+    padding: 10px;
+    padding-left: 0;
+}
