@@ -3,14 +3,14 @@
 }
 .info{
     width: 100%;
-    padding: 20px;
-    margin:-10px;
-    margin-top:-37px;
+    padding: 1.25rem;
+    margin:-0.625rem;
+    margin-top:-2.313rem;
     background-color: #bfc4c9;
 
 }
 .info h2{
-    margin-left: 90px;
+    margin-left: 5.625rem;
 }
 .times{
     display: flex;
@@ -18,11 +18,12 @@
     justify-content: space-evenly;
 }
 .recipe{
-    width:80%;
-    margin-left: 9rem;
+    display: grid;
+    width:60%;
+    margin-left: 25rem;
     margin-bottom:5rem;
 }
-.recipe h2{
+.recipe h1{
     display: flex;
     justify-content: center;
 }
@@ -46,24 +47,25 @@
     border:1px solid black;
 }
 .testimonial{
-    margin-top: 20px;
-    margin-left: 10rem;
-    width:50%;
+    margin-top: 1.25rem;
+    justify-self: center;
+    width:30%;
     background-color: #bfc4c9;
     padding: 8px;
 }
 .ingredients{
     display: flex;
 }
-.ingredients h3{
+.ingredients h3,
+h4{
     margin-left:2rem;
 }
 .left{
-    margin: 55px;
+    margin: 3.438rem;
     width: 50%;
 }
 .right{
-    margin: 55px;
+    margin: 3.438rem;
     width: 45%;
     margin-right: 5rem;
     margin-left: 0;
