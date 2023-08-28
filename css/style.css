@@ -5,9 +5,12 @@ body{
 }
 
 header{
-    background-color: rgb(233, 152, 1);
+    background-color: #F1A536;
     margin:-8px;
     margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 header img{
     display: inline-block;
@@ -15,13 +18,14 @@ header img{
 }
 header ul{
     list-style: none; 
-    float: right;
     margin-right:9rem;
+    display:flex;
+    padding:0;
+    align-items: center;
 }
 header li{
-    display: inline-block;
     padding:1rem;
-    font-size: x-large;
+    font-size: 22px;
 
 }
 .navLinks{
@@ -48,16 +52,96 @@ span h1{
     left:50rem;
     top:-15rem;
 }
-.healthy{
-    background-color: rgb(145, 151, 156);
-    margin:-10px;
-    padding: 5rem;
+.contianer{
+    height:100%;
 }
+.section{
+    height: 85%;
+}
+.where{
+    height: 45rem;
+}
+.info{
+    width: 70%;
+    position: relative;
+    left:10rem;
+    font-size: x-large;
+    padding:0;
+    margin:0;
+}
+
+.healthy{
+    background-color: #DADFEA;
+    margin-left:-10px;
+    padding: 0;
+    padding-top:5px;
+}
+.cardContainer{
+    display:flex;
+    width: 80%;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+    margin:3rem;
+    align-items: center;
+}
+.card{
+    display:flex;
+    flex-flow: column nowrap;
+    width:30%;
+    padding:5px;
+    height:300px;
+    flex: 1;
+    margin: 5px;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.card>a{
+    text-decoration: none;
+    color:black;
+    font-size: x-large;
+}
+.card>img{
+    object-fit: cover;
+    width:100%;
+    height:85%
+}
+section>.healthy>.cardLink{
+    background-color: #ffff;
+    padding:2px;
+}
+
+.where>.cardContainer>.card{
+    border: 5px solid #DADFEA;
+    margin:5px;
+    padding:0;
+}
+.where>.cardContainer>.card>a{
+    background-color: transparent;
+}
+  
+.card > img {
+    flex: 1;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .card > a {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    padding: 8px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .where{
+    margin-bottom: 4rem;
+  }
 footer{
     margin:-10px;
     padding:10px;
     height:100px;
-    background-color:rgb(233, 152, 1);
+    background-color:#F1A536;
 }
 footer span{
     font-size: large;
