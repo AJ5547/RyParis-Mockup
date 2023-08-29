@@ -79,10 +79,12 @@ span h1{
 .cardContainer{
     display:flex;
     width: 80%;
-    flex-flow:row nowrap;
+    flex-flow:row wrap;
     justify-content: space-around;
     margin:3rem;
     align-items: center;
+    position: relative;
+    left:5%
 }
 .card{
     display:flex;
@@ -92,7 +94,6 @@ span h1{
     height:300px;
     flex: 1;
     margin: 5px;
-    flex-direction: column;
     border-radius: 5px;
     overflow: hidden;
 }
